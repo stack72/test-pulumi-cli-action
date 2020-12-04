@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: pulumi/actions@v0.0.1
+      - uses: pulumi/actions@v0.0.2
         with:
           command: up
         env:
